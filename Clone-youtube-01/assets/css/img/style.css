@@ -1,0 +1,171 @@
+:root {
+    --cor-primaria : rgb(55, 185, 137);
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: #222;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    flex-flow: row;
+    gap: 1px;
+    padding: 0 1.1em;
+    border-bottom: 2px solid var(--cor-primaria) ;
+ 
+    
+  
+}
+.item-icon-1 {
+    margin: 1px;
+    font-size: 33px;
+    padding: 14px;
+}
+
+
+.item-icon-2 {
+    align-items: center;
+    text-align: center;
+    padding:0 1.1em;
+    width: 50%;
+    height: 44px;
+    flex-grow: 1;
+    min-width: 24vh;
+    border-style: none;
+    font-size: 33px;
+
+}
+.item-icon-4 {
+    font-size: 33px;
+    padding: 0 1.3rem;
+ 
+}
+
+/*Tela principal*/
+.main {
+    position:absolute;
+}
+.video-principal iframe {
+    margin:0 28px;
+    height: 90vh;
+    width: 74vw;
+    border: none;
+   
+}
+.text-final h2{
+    color: rgb(221, 255, 244);
+    margin: 0 27px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(#333, #777, #222);
+    width: 57%;
+    border-radius: 12px;
+    border-bottom: 3px solid red ;
+}
+.img-f, .dio {
+    margin: 1px;
+    padding: 0 1.1vw;
+    flex: 0 1 200px;
+    font-size: 26px;
+    font-weight: bold;
+    
+    
+}
+
+.img-f, nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    gap: 34px;
+
+
+}
+nav a {
+    padding:0 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 30px;
+    border-bottom: 3px solid red;
+    opacity: 9;
+    transition: .150ms;
+}
+nav a:hover {
+    background-color: rgb(44, 44, 44);
+    
+}
+
+.para_final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 2, 2);
+   
+}
+.paraf{
+    margin-top: 56px;
+    width:70% ;
+    border: none;
+    padding: 0 1.2rem;
+    position: absolute;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 20px ;
+    border-bottom: 3px solid red;
+    cursor: pointer;
+    transition: .150ms;
+
+}
+.paraf:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+
+/*Section vertical left.*/
+.contain {
+    display: table-cell;
+    float: right; 
+}
+.flex-item {
+    color: aliceblue;
+    display:table-cell;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-wrap: wrap;
+    width: 37vh;
+    margin-right: 31%;
+
+
+}
+
+.flex-item iframe {
+   display: table-cell;
+   border-radius: 10px;
+   float: left;
+   width: 98%;
+   transition: .9s;
+   cursor: pointer;
+   
+   
+}
+.flex-text {
+   display: table-cell;
+   float: right;
+   border-bottom: 3px solid red ;
+}
+
+
+
+
+
